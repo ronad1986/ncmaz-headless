@@ -7,7 +7,6 @@ const { createSecureHeaders } = require('next-secure-headers')
 module.exports = withFaust({
 	trailingSlash: true,
 	reactStrictMode: true,
-	experimental: {
 		typedRoutes: false,
 	},
 	images: {
